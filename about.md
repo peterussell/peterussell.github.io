@@ -4,5 +4,4 @@ title: About
 subtitle:
 ---
 
-### About
 Coming soon...

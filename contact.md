@@ -4,6 +4,4 @@ title: Contact
 subtitle: 
 ---
 
-### Contact
-
 Coming soon...
