@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: httpete.nz
+title: Pete Russell | httpete.nz
 
 # Your name to show in the footer
 author: Pete Russell
@@ -15,9 +15,7 @@ author: Pete Russell
 
 navbar-links:
   About: "about"
-  Projects:
-    - Jube: "https://jubecrm.com"
-    - GroundSchool NZ: "https://www.groundschool.co.nz"
+  Projects: "projects"
   Contact: "contact"
 
 # --- Logo --- #
