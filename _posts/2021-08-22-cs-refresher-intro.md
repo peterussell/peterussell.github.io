@@ -12,15 +12,18 @@ image:
 
 ### Background
 
-My situation is similar - I think - to many mid-career oftware developers:
+My situation is, I think, similar to many mid-career oftware developers:
 despite working as a professional programmer for the last few years, I feel
-pretty out of touch with some of the more 'computer science-y' topics covered
-at university.
+pretty out of touch with some of the more computer science-y topics covered
+a "while back" at university.
 
 To be completely honest, I'd probably struggle to talk confidently about
-interview staples like linked lists, hash maps, time or space complexity,
-etc., and I've also been keen for a while now to dig deeper into clean code
-architecture and patterns.
+some common interview topics like, hash maps, sorting algorithsm,
+time or space complexity, etc., and I've also been keen for a while now
+to dig deeper into clean code architecture and patterns.
+
+I actually remember it being pretty fun learning how to implement these things,
+and find out how they work under the hood.
 
 ### So, a plan...
 
@@ -35,5 +38,5 @@ outline of fundamental CS topics without being overwhelming.
 If you want to join in I've set up a
 [CS Refresher GitHub repository](https://github.com/peterussell/cs-refresher.git).
 As I work through the topics I'll summarise notes on whatever I've been
-learning about, write some example code, and add a copy of the notes on this
-site.
+learning about, write some example code, and copy the notes over to this
+site as well.
