@@ -18,7 +18,7 @@ pretty out of touch with some of the more computer science-y topics covered
 a "while back" at university.
 
 To be completely honest, I'd probably struggle to talk confidently about
-some common interview topics like, hash maps, sorting algorithsm,
+some common interview topics like, hash maps, sorting algorithms,
 time or space complexity, etc., and I've also been keen for a while now
 to dig deeper into clean code architecture and patterns.
 
