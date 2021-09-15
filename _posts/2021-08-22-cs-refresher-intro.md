@@ -12,7 +12,7 @@ image:
 
 ### Background
 
-My situation is, I think, similar to many mid-career oftware developers:
+My situation is, I think, similar to many mid-career software developers:
 despite working as a professional programmer for the last few years, I feel
 pretty out of touch with some of the more computer science-y topics covered
 a "while back" at university.
