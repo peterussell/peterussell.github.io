@@ -5,24 +5,17 @@ categories: [study, cs]
 tags: [cs-study, big-o-notation]
 ---
 
-### Resources
+Big O Notation is a way to describe how the resources (time and space)
+needed to run a function grow as the size of the *input* to that function
+grows.
 
- - [Introduction to Big O Notation and Time Complexity - CS Dojo (YouTube)](https://www.youtube.com/watch?v=D6xkbGLQesk)
- - [Big O Notation - HackerRank (YouTube)](https://www.youtube.com/watch?v=v4cd1O4zkGw)
-
-### Overview
-
-Big O Notation is a way of describing how the time it takes to run your
-function grows as the size of the input to that function grows.
-
-Its purpose is to answer the question "how long does it take to run this function?",
-while removing variable factors like how fast your computer is, are other
-programs running at the same time, which programming language is being used,
-etc.
+It aims to answer this question while removing other variables like the
+speed of your computer, whether other programs are running, which programming
+language is being used, etc.
 
 Part 1 (this post) covers constant, linear, and quadratic time with regard
 to time complexity. Part 2 will cover logarithmic complexity, and talk
-about applying Big O to space complexity.
+about applying Big O to measure the space used by a function.
 
 ### Constant time: **O(1)**
 
@@ -121,3 +114,8 @@ public void printFruitCombos(ArrayList<String> fruits) {
  - 'n' is just a variable used by convention. You can swap it for some other variable if
    you want, eg. given an input size of `a` items to an algorithm with linear complexity,
    we can write the Big O notation as O(a).
+
+### Resources
+
+ - [Introduction to Big O Notation and Time Complexity - CS Dojo (YouTube)](https://www.youtube.com/watch?v=D6xkbGLQesk)
+ - [Big O Notation - HackerRank (YouTube)](https://www.youtube.com/watch?v=v4cd1O4zkGw)
