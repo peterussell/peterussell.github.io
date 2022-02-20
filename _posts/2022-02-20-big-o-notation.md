@@ -1,5 +1,5 @@
 ---
-title: Big O Notation
+title: Big O Notation (Part 1)
 date: 2022-02-20 13:04:00 +1300
 categories: [study, cs]
 tags: [cs-study, big-o-notation]
@@ -19,6 +19,10 @@ Its purpose is to answer the question "how long does it take to run this functio
 while removing variable factors like how fast your computer is, are other
 programs running at the same time, which programming language is being used,
 etc.
+
+Part 1 (this post) covers constant, linear, and quadratic time with regard
+to time complexity. Part 2 will cover logarithmic complexity, and talk
+about applying Big O to space complexity.
 
 ### Constant time: **O(1)**
 
