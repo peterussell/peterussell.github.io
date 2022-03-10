@@ -14,8 +14,7 @@ speed of your computer, whether other programs are running, which programming
 language is being used, etc.
 
 Part 1 (this post) covers constant, linear, and quadratic time with regard
-to time complexity. Part 2 will cover logarithmic complexity, and talk
-about applying Big O to measure the space used by a function.
+to time complexity. Part 2 will cover logarithmic complexity.
 
 ### Constant time: **O(1)**
 
