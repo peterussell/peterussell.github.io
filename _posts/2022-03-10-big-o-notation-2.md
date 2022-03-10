@@ -72,5 +72,5 @@ comes up in merge sort, which we'll look at in a future post.
 
 ### Resources
 
+ - [Big O Part 4 - Logarithmic Complexity - Computer Science](https://www.youtube.com/watch?v=Hatl0qrT0bI)
  - [Big O Notation, O(log n) - freeCodeCamp.org](https://youtu.be/Mo4vesaut8g?t=1593)
- - [Big O Notation - HackerRank (YouTube)](https://www.youtube.com/watch?v=v4cd1O4zkGw)
