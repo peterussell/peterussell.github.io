@@ -1,5 +1,5 @@
 ---
-title: "PMP Update 3: Decision paralysis"
+title: "PMP Update 3: From scratch"
 date: 2022-06-27 10:59:00
 categories: [projects]
 tags: [pmp]
