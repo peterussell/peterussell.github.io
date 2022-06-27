@@ -29,7 +29,7 @@ As promised, here are links to the Trello board and GitHub repo:
 
  - **Trello board:** [https://trello.com/pmp3000](https://trello.com/pmp3000)
  - **GitHub repository:** [https://github.com/peterussell/pmp](https://github.com/peterussell/pmp)
-i
+
 ### PMP?
 
 Pete's Map Project. A working title until we figure out what it's going to do :D 
