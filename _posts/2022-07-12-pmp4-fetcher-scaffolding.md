@@ -72,7 +72,7 @@ continues, but here's what I have so far:
     was published, and when the next edition will be published. Each 'edition' also
     has multiple downloads (a geo-referenced TIFF in a ZIP file, and a PDF). We want
     to grab those URLS for each edition, for each area, and save them. It looks like
-    the FAA (might have an API for this](https://app.swaggerhub.com/apis/FAA/APRA/1.2.0),
+    the FAA [might have an API for this](https://app.swaggerhub.com/apis/FAA/APRA/1.2.0),
     otherwise it'll be good old scraping.
 
     *(NB. this **could** be hardcoded in theory -- the chart areas and URLs are unlikely to change,
