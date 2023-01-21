@@ -1,31 +1,27 @@
 ---
 title: "Lambda Layers with Python and Serverless Framework"
-date: 2023-01-21 13:15:00
+date: 2023-01-20 13:15:00
 categories: [python, aws, lambda]
 tags: [python, lambda, aws]
 ---
 
-# Lambda layers with python and serverless framework
-
 ## Preamble
 
-[GroundSchool NZ](https://groundschool.co.nz) is currently deployed to AWS using Terraform, but I've recently been moving some pieces to [Serverless Framework](https://www.serverless.com) (SLS) with the ultimate goal of having a split between Terraform and SLS. It's still a work in progress, but the idea would be:
+[GroundSchool NZ](https://groundschool.co.nz) is currently deployed to AWS using Terraform, but I've recently moved some pieces to [Serverless Framework](https://www.serverless.com) (SLS) with the ultimate goal of a mix of Terraform and SLS. It's still a work in progress, but the idea is:
  - Terraform - infra layer:
    - IAM, Route53, CloudFront (maybe?), S3 deployment-related buckets
  - Serverless framework - app layer:
    - Lambda, S3, DynamoDB, API gateway
 
-The existing Lambda functions were put together pretty roughly, and have a lot of duplicated utility code for things like HTTP requests/responses and interacting with DynamoDB. It seemed like a good opportunity for a tidy-up.
+The existing Lambda functions were put together pretty roughly, and duplicate some  utility code for things like HTTP requests/responses and interacting with DynamoDB. It seemed like a good opportunity for a tidy-up.
 
-I looked at options for sharing python functions with Serverless. SLS has a plugin framework and I found a few plugins that seemed to handle this in various ways, but then realized that [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) did what I wanted 'natively'.
-<br />
-<br />
+After looking at options for sharing python code between Lambda functions, realized that [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) did what I wanted, and has support in SLS without adding any plugins.
 
 ## Folder structure
 
-I have a `web-api` Serverless Framework service defined. Inside that we've got a `common` folder for shared functions, and a `functions` folder for the API endpoints that respond to API gateway events -- this should be able to access the layer we create with functions in `common`, eg. `db_utils`, `list_utils`, etc.
+I have a `web-api` Serverless Framework service containing a `common` folder for shared functions and `functions` for the API endpoints. These should be able to access the layer we create from `common`, eg. `db_utils`, `list_utils`, etc.
 
-> **Important: `/common/python`:** in order for Lambda to be able to find functions in the layer, shared code must be in a folder called `python`. The root folder (eg. `common`) can be wherever you want, but the immediate child needs to be a directory called `python`, which in turn contains your shared functions.
+**Important "`/common/python`":** in order for Lambda to be able to find functions in the layer, shared code needs to be in a folder called `python`. The root folder (eg. `common`) can be wherever you want (we define the path in the Serverless config), but the immediate child needs to be a directory called `python` which contains your shared functions.
 
 ```
 web-api
@@ -96,7 +92,7 @@ def make_200(response_body):
 
 ## Using functions in the layer
 
-Import the module that we created in Step 3 and use the function!
+Import the module that we created in the previous step, and use the function!
 ```python
 import response_utils
 
