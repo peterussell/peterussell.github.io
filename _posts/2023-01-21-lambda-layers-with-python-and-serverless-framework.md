@@ -15,7 +15,7 @@ tags: [python, lambda, aws]
 
 The existing Lambda functions were put together pretty roughly, and duplicate some  utility code for things like HTTP requests/responses and interacting with DynamoDB. It seemed like a good opportunity for a tidy-up.
 
-After looking at options for sharing python code between Lambda functions, realized that [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) did what I wanted, and has support in SLS without adding any plugins.
+After looking at options for sharing python code between Lambda functions, I realized that [Lambda Layers](https://docs.aws.amazon.com/lambda/latest/dg/configuration-layers.html) did what I wanted and is supported in SLS without requiring plugins.
 
 ## Folder structure
 
