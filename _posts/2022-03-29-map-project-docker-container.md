@@ -1,7 +1,7 @@
 ---
 title: "PMP Update 2: Java+Docker"
 date: 2022-03-29 20:58:00 +1300
-categories: [projects, moving-map, pmp]
+categories: [projects, pmp]
 tags: [projects, moving-map, aviation]
 ---
 

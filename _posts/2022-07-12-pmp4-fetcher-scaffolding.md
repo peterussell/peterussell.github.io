@@ -1,8 +1,8 @@
 ---
 title: "PMP Update 4: Fetcher scaffolding"
 date: 2022-07-12 10:00:00
-categories: [projects]
-tags: [pmp]
+categories: [projects, pmp]
+tags: [pmp, java, aws]
 ---
 
 I caught up with my friend Matt and talked through some of the questions

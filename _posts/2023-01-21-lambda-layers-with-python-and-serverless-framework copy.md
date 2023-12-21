@@ -1,8 +1,8 @@
 ---
 title: "Lambda Layers with Python and Serverless Framework"
 date: 2023-01-20 13:15:00
-categories: [python, aws, lambda]
-tags: [python, lambda, aws]
+categories: [aws]
+tags: [aws, lambda, python]
 ---
 
 ## Preamble

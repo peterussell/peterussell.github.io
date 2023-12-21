@@ -1,8 +1,8 @@
 ---
 title: "PMP Update 3: From scratch"
 date: 2022-06-27 10:59:00
-categories: [projects]
-tags: [pmp]
+categories: [projects, pmp]
+tags: [pmp, aws]
 ---
 
 Life's had a rapid reshuffle over the last few weeks, mainly centered

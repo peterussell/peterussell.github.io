@@ -1,8 +1,8 @@
 ---
 title: A new project
 date: 2022-02-17 20:31:00 +1300
-categories: [projects, moving-map]
-tags: [projects, moving-map, aviation]
+categories: [projects, pmp]
+tags: [projects, pmp, aviation]
 ---
 
 I thought it would be an interesting challenge to try and build a web app
