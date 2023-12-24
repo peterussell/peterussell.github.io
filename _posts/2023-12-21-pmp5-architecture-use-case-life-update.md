@@ -53,7 +53,7 @@ background.
 ### Kubernetes
 
 Kubernetes is definitely overkill for this, but also fun. I helped migrate on on-prem site to K8s
-at (Trade Me)[https://www.trademe.co.nz/a/] and enjoyed that project. I'm interested in more hands-on learning
+at [Trade Me](https://www.trademe.co.nz/a/) and enjoyed that project. I'm interested in more hands-on learning
 with distributed systems, and see K8s mentioned on a lot of interesting projects I read about. 
 
 ## A use case!
