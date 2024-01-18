@@ -148,7 +148,7 @@ docker build -t api -f Dockerfile ../
  - `-f Dockerfile` - tells `docker build` to use the Dockerfile specified at this path (in this case the current API directory)
  - `../` - run the command from a directory up
 
-If the build succeeds, you can run `docker images` in the terminal, and you should see the newly created image.
+If the build succeeds, run `docker images` in the terminal to see the newly created image.
 
 ## Running the container
 
@@ -227,5 +227,5 @@ Things to check:
 I hope that's helpful for someone who's trying to achieve the same, and avoid running into a few of the issues
 that stumped me.
 
-Now that's running, the next mini-project is to get the React/Next web application running in a separate container,
-and get the two talking to each other.
+Now that's running, the next goal is to get the React/Next web application running and containerize that, ready
+to get them both running with Kubernetes.
