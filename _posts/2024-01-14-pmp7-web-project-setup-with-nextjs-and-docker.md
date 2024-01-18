@@ -103,7 +103,7 @@ The solution is just adding `output: "standalone"` to next.config.js as mentione
 ### Yarn, NPM, and PNPM
 
 The Dockerfile in the example above works with your choice of npm, yarn, or pnmp, by checking for which type of
-lockfile you have and calls the appropriate command. So feel free to use your package manager of choice.
+lockfile you have and calling the appropriate command. So feel free to use your package manager of choice.
 
 ## Building the image
 
