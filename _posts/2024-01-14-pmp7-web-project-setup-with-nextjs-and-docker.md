@@ -67,6 +67,10 @@ etc., but this has the downside that if you add other directories that you want 
 have to remember to add each one as a new path in tsconfig.json. The approach I took allows new directories 
 to be added to `/src/`  without having to update tsconfig.json.
 
+After getting familiar with TailwindCSS again and some light tweaking, say hello to our new website!
+
+![Hello world](/assets/img/posts/2024-01-17/hello-world.png)
+
 ## Configuring Docker
 
 Next.js has great docs for deploying apps with Docker. It's covered in the [official documentation](https://nextjs.org/docs/pages/building-your-application/deploying#docker-image)
@@ -133,6 +137,10 @@ You should now be able to browse to `http://localhost:3000` to view your new Nex
 Docker container.
 
 ## Next steps
+
+Success, we have an API container and a web container building and running!
+
+![Web and API containers](/assets/img/posts/2024-01-17/web-and-api-containers.png)
 
 To recap, we've now got the C#.NET API and the Next.js web app both building and running in containers.
 So our next goal is to spin them up in minikube and figure out how to send API requests from the app
