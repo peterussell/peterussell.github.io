@@ -13,7 +13,7 @@ MSFS 2020 rendered on top of FAA aeronautical charts. To be clear, I have no ide
 doing but I'm hoping we'll figure it out together.
 
 The first core piece is downloading the charts from the FAA, which is what the fetcher's
-responsible for (learn the gory details in a [previous post](%{ post_url 2022-07-12-pmp4-fetcher-scaffolding %})).
+responsible for (learn the gory details in a [previous post]({% post_url 2022-07-12-pmp4-fetcher-scaffolding %})).
 
 Fortunately I'd already worked out stubbing some of the classes and getting a Dockerfile
 running in another project, so the update this week was just porting that into the `pmp`
